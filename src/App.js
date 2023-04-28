@@ -11,12 +11,14 @@ function App() {
   return (
     <div className='app'>
       <Header />
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/movie/:imdbID' element={<MovieDetail/>} />
-        <Route path='*' element={<PageNotFound/>}/>
-      </Routes>
-      <Footer/>
+      <div className='container'>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/movie/:imdbID' element={<MovieDetail />} />
+          <Route path='*' element={<PageNotFound />} />
+        </Routes>
+      </div>
+      <Footer />
     </div>
   );
 }

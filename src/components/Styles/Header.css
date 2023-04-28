@@ -10,7 +10,7 @@ $font-secondary: #79b8f3; */
   --font-secondary: #79b8f3;
 }
 .header {
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
   height: 72px;
   padding: 0px 40px;
   display: flex;
@@ -21,7 +21,7 @@ $font-secondary: #79b8f3; */
 .logo{
   color:var(--font-primary);
   font-size: 24px;
-  font-weight: 600;
+  font-weight: bold;
   
 }
 

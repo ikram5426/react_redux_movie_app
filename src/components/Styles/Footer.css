@@ -1,0 +1,19 @@
+:root {
+  --primary-color: #0f171e;
+  --secondary-color: #1a242f;
+  --font-primary: #ffffff;
+  --font-secondary: #79b8f3;
+}
+
+.footer{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--secondary-color);
+  height:75px;
+  flex-direction: column;
+}
+
+.movie{
+  margin-bottom:5px;
+}
