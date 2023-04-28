@@ -1,0 +1,22 @@
+:root {
+  --primary-color: #0f171e;
+  --secondary-color: #1a242f;
+  --font-primary: #ffffff;
+  --font-secondary: #79b8f3;
+}
+
+.movie-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 5vh;
+}
+
+.movie-list {
+  margin: 20px 0px;
+}
+
+.movie-list h2 {
+  color: va(--font-secondary);
+  margin-bottom: 10px;
+  font-weight: 500;
+}

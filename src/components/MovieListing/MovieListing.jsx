@@ -1,20 +1,18 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import { getAllMovies } from "../../features/movies/moviesSlice";
-
+import "../Styles/MovieListing.css";
+import MovieCard from "../MovieCard/MovieCard";
 
 const MovieListing = () => {
-
   const movies = useSelector(getAllMovies);
 
   let renderMovies = "";
 
-  let MovieCard;
-
   renderMovies =
-    movies.Response === "true" ? (
+    movies.Response === "True" ? (
       movies.Search.map((movie, i) => {
-        <MovieCard key={i} data={movie} />;
+        return <MovieCard key={i} data={movie} />;
       })
     ) : (
       <div className='movie-error'>
@@ -31,6 +29,5 @@ const MovieListing = () => {
     </div>
   );
 };
-
 
 export default MovieListing;
