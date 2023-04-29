@@ -9,9 +9,10 @@
   display:flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--secondary-color);
+  background-color: #444656;
   height:75px;
   flex-direction: column;
+  margin-top: 60px;
 }
 
 .movie{

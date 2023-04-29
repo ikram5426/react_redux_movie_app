@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #0f171e;
+  --primary-color: #1e190f;
   --secondary-color: #1a242f;
   --font-primary: #ffffff;
   --font-secondary: #79b8f3;
@@ -16,7 +16,7 @@ a{
   text-decoration: none;
 }
 body{
-background-color: var(--primary-color);
+background-color: #343540;
 }
 
 .container{

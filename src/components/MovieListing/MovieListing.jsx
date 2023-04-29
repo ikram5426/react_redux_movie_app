@@ -23,7 +23,7 @@ const MovieListing = () => {
   return (
     <div className='movie-wrapper'>
       <div className='movie-list'>
-        <h3>Movies</h3>
+        <h1 style={{margin:'30px', marginLeft:'auto'}}>Movies</h1>
         <div className='movie-container'>{renderMovies}</div>
       </div>
     </div>

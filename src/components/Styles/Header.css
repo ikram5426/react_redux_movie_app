@@ -1,16 +1,8 @@
-/* $primary-color: #0f171e;
-$secondary-color: #1a242f;
-$font-primary: #ffffff;
-$font-secondary: #79b8f3; */
 
-:root {
-  --primary-color: #0f171e;
-  --secondary-color: #1a242f;
-  --font-primary: #ffffff;
-  --font-secondary: #79b8f3;
-}
+
+
 .header {
-  background-color: var(--secondary-color);
+  background-color: #444656;
   height: 72px;
   padding: 0px 40px;
   display: flex;
