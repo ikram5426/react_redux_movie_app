@@ -10,8 +10,12 @@
   cursor: pointer;
 border-radius: 22px;
 width:320px;
+  transition: all 1s;
 
+}
 
+.card-item:hover{
+  transform: scale(1.1);
 }
 
 .card-top {
