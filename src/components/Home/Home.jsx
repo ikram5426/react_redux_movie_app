@@ -18,10 +18,13 @@ const Home = () => {
   const series = useSelector(getAllSeries);
   const episodes=useSelector(getAllEpisodes)
   const dispatch = useDispatch();
+  const movieTerm='Harry'
+  const seriesTerm='Money'
+  const episodeTerm="Love"
   useEffect(() => {
-    dispatch(fetchMovies());
-    dispatch(fetchSeries());
-    dispatch(fetchEpisode());
+    dispatch(fetchMovies(movieTerm));
+    dispatch(fetchSeries(seriesTerm));
+    dispatch(fetchEpisode(episodeTerm));
   }, [dispatch]);
   return (
     <div>
